@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CB</title>
+    <link rel ="stylesheet" type="text/css" href="./log2.css">
+    <link href="./img/favicon-32x32.png" rel="icon">
+  <link href="./img/favicon-16x16.png" rel="apple-touch-icon">
+  
+</head>
+<body>
+    <div class="navegacao">
+    <div class="naVarea">
+<ul>
+    <li>
+        <a href="#"  onmouseenter = "changeImage('img1.jfif')"></a> </li>
+
+        <li>
+            <a href="https://cristiandev73.github.io/cristianbernardinodev.github.io/"  onmouseenter = "changeImage('loc1.jpg')">Portfólio</a> </li>
+
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=5573991196739" onmouseenter = "changeImage('img6.jpg')" >Contato</a> </li>
+
+</ul>
+    </div>
+    
+   <div class="imgArea">
+
+<img src="./img1.jfif" id="slider">
+
+   </div>
+    </div>
+    <script>
+        function changeImage(anything){
+            document.getElementById('slider').src = anything;
+        }
+    </script>
+
+</body>
+</html>
